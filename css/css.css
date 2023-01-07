@@ -7,20 +7,23 @@
     dotted;
     dashed;
     outset; */
-    border-color: red green blue gray;
+
+    /* border-color: red green blue gray;
     border-width: 2px 10px 1px 15px;
-    border-style: solid dotted dashed outset;
+    border-style: solid dotted dashed outset; */
 
-    background-image: url("../img/logo.png");
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-
-
+    border: 1px solid black;
+    margin-top: 20px;
 
 }
 
 body{
-    background-color: violet;
+    /* background-image: url("../img/logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;  */
+}
 
+#margem{
+    margin-top: 200px;
 }
