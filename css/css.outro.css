@@ -1,0 +1,28 @@
+.conteudo{
+    background-color: green;
+    width: 40%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin-left: 5%;
+    padding: 10px;
+    overflow: hidden;
+    transition: 0.6s;
+
+
+}
+.conteudo:hover{
+    background-color: red;
+    width: 45%;
+    height: 250px;
+
+}
+@media(max-width: 600){
+    .conteudo{
+        width: 90%;
+        float:none;        
+        margin-left: 0;
+        height: 200px;
+        margin-top: 2%;
+    }
+}
